@@ -1,0 +1,8 @@
+<form>
+    <div class="mb-3"><label class="form-label" for="signature"><strong>Mission</strong></label><textarea placeholder="<?php echo $Pmision; ?>" class="form-control" id="signature" rows="4" name="signature"></textarea></div>
+    <div class="mb-3"><label class="form-label" for="signature"><strong>Vision</strong></label><textarea placeholder="<?php echo $Pvision; ?>" class="form-control" id="signature-2" rows="4" name="signature"></textarea></div>
+    <div class="mb-3"><label class="form-label" for="signature"><strong>Motto</strong></label><textarea placeholder="<?php echo $Pmoto; ?>" class="form-control" id="signature-1" rows="4" name="signature"></textarea></div>
+    <div class="mb-3"><label class="form-label" for="signature"><strong>Short About you</strong></label><textarea placeholder="<?php echo $Pshort_about; ?>" class="form-control" id="signature-3" rows="4" name="signature"></textarea></div>
+    <div class="mb-3"></div>
+    <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit">Save Settings</button></div>
+</form>
